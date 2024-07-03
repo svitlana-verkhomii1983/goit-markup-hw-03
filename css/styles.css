@@ -4,6 +4,10 @@ body {
     background-color: #ffffff;
 }
 
+.header {
+    border: 1px solid #E7E9FC;
+}
+
 .container {
     width: 1128px;
     padding: 0 15px;
