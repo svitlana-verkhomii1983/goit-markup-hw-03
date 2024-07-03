@@ -4,6 +4,12 @@ body {
     background-color: #ffffff;
 }
 
+.container {
+    width: 1128px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 ul {
     list-style-type: none;
 }
