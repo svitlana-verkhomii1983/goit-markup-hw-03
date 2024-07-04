@@ -65,12 +65,14 @@ a {
 }
 
 .navigation-name {
+    display: block;
     text-decoration: none;
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 
 }
 
@@ -82,22 +84,25 @@ a {
 .address {
     font-style: normal;
     color: #434455;
+    margin-left: auto;
 
 }
 
 .address-list {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
-.address-item,
 .address-contact {
+    display: block;
     text-decoration: none;
     color: #434455;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
+    padding: 24px 0;
 }
 
 .address-contact:hover,
