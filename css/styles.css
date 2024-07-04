@@ -12,6 +12,7 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -26,6 +27,10 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
 }
 
 .header-container {
@@ -114,6 +119,13 @@ a {
     background: #2e2f42;
 }
 
+.section-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    
+}
+
 .section-main-title {
     font-weight: 700;
     font-size: 56px;
@@ -121,6 +133,11 @@ a {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    
 }
 
 button {
@@ -132,12 +149,22 @@ button {
     color: #ffffff;
     background-color: #4d5ae5;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
 }
 
 button:hover,
 button:focus {
     background-color: #404BBF;
     color: #ffffff;
+}
+
+.properties-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -153,12 +180,22 @@ button:focus {
     overflow: hidden;
 }
 
+.properties-list {
+    display: flex;
+    gap: 20px;
+}
+
+.properties-item {
+    width: calc((100% - 72) / 4);
+}
+
 .properties-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .properties-text {
@@ -172,6 +209,11 @@ button:focus {
     background: #f4f4fd;
 }
 
+.specialists-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .specialists-title {
     text-transform: capitalize;
     font-weight: 700;
@@ -180,10 +222,29 @@ button:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.specialists-list {
+    display: flex;
+    gap: 24px;
 }
 
 .specialist-item {
     background-color: #ffffff;
+    width: calc((100% - 72) / 4);
+    border-bottom: 1 solid #434455;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+}
+
+.specialist-text {
+    text-align: center;
+    padding-top: 32px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+
 }
 
 .specialist-name {
@@ -192,6 +253,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .specialist-job {
@@ -199,6 +261,11 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.portfolio-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -209,6 +276,28 @@ button:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.portfolio-item {
+    background-color: #ffffff;
+    width: calc((100% - 48) / 3);
+    border: 1px solid #e7e9fc;
+}
+
+.portfolio-list {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-text {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+
 }
 
 .portfolio-photo-name {
@@ -217,6 +306,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .portfolio-photo-text {
@@ -231,7 +321,7 @@ button:focus {
 }
 
 .footer-logo {
-    
+    margin-bottom: 16px;
 }
 
 .footer-logo-name-two {
