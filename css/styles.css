@@ -282,7 +282,6 @@ button:focus {
 .portfolio-item {
     background-color: #ffffff;
     width: calc((100% - 48px) / 3);
-    border: 1px solid #e7e9fc;
 }
 
 .portfolio-list {
@@ -320,8 +319,14 @@ button:focus {
     background: #2e2f42;
 }
 
+.footer-container {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
 .footer-logo {
-    margin-bottom: 16px;
+    display: inline-block;
+    padding-bottom: 16px;
 }
 
 .footer-logo-name-two {
@@ -333,4 +338,5 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
